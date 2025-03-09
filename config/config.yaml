@@ -1,0 +1,20 @@
+# API Configuration
+api:
+  coin_id: "bitcoin"
+  vs_currency: "usd"
+  days: 30
+  interval: "daily"
+
+# Data Validation Rules
+validation:
+  min_price: 0
+  required_columns:
+    - timestamp
+    - price
+    - volume
+    - market_cap
+
+# DuckDB Configuration
+duckdb:
+  database: "data/crypto.duckdb"
+  table: "crypto_prices"
