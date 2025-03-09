@@ -17,4 +17,5 @@ validation:
 # DuckDB Configuration
 duckdb:
   database: "data/crypto.duckdb"
+  database2: "data/crypto2.duckdb"
   table: "crypto_prices"
